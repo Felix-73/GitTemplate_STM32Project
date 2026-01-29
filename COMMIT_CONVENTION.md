@@ -1,4 +1,4 @@
-# Commit Convention
+# Commit Convention + Tag
 
 
 ## Purpose
@@ -70,5 +70,15 @@ Rules:
 
 ### Command example
 
-
 ``` git commit -m "feat(uart): add UART driver support for STM32F4"```
+
+# TAG
+In this project, we use **Git tags** to track firmware versions. Tags mark a **specific commit** that corresponds to a released firmware build. This allows you to easily reference, checkout, or build a particular version.
+
+Tags should follow semantic versioning: vMAJOR.MINOR.PATCH (e.g., v1.2.0).
+
+Keep README.md and changelog separate from versioning. Don’t update the version in the README for every release.
+
+### Command example
+
+``` git tag -a v1.2.0 -m "Release firmware version 1.2.0"```
