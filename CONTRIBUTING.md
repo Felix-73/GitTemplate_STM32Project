@@ -1,14 +1,14 @@
-Contributing Rules
-==================
+# Contributing Rules
 
-General Rules
--------------
+
+## General Rules
+
 - This project uses STM32Cube-generated code
 - All contributors must follow the defined workflow
 - Code reviews are mandatory
 
-Commit Rules
-------------
+## Commit Rules
+
 - Commits MUST follow COMMIT_CONVENTION.md
 - One commit = one logical change
 - Each commit must:
@@ -16,8 +16,8 @@ Commit Rules
   - Link
   - Boot when applicable
 
-Workflow
---------
+## Workflow
+
 1. Create a branch from 'develop'
 2. Implement the change
 3. Rebase on latest 'develop'
@@ -25,14 +25,14 @@ Workflow
 5. Address review comments
 6. Merge after approval
 
-Forbidden Actions
------------------
+## Forbidden Actions
+
 - Force push on 'main'
 - Commit generated binaries
 - Modify CubeMX files without justification
 
-CubeMX Policy
--------------
+## CubeMX Policy
+
 - The .ioc file is versioned
 - Code regeneration must not overwrite user code
 - Any CubeMX regeneration must be mentioned in commit message
