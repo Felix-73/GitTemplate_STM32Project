@@ -1,0 +1,104 @@
+# ----------------------------
+# Build output
+# ----------------------------
+# GCC/Make/CMake build directories
+/build/
+/Debug/
+/Release/
+/out/
+/bin/
+/obj/
+/cmake-build-*/
+
+# ----------------------------
+# STM32CubeIDE / Eclipse
+# ----------------------------
+*.launch
+*.project
+*.cproject
+.settings/
+.metadata/
+*.mxproject
+*.ioc
+*.ioc_backup
+*.ioc_history/
+Debug/
+Release/
+*.elf
+*.map
+*.bin
+*.hex
+*.lst
+*.d
+
+# ----------------------------
+# IDE / Editor temporary files
+# ----------------------------
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+*~
+\#*\#
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ----------------------------
+# Generated / temporary files
+# ----------------------------
+*.tmp
+*.bak
+*.log
+*.dmp
+*.srec
+*.axf
+*.out
+*.dep
+*.lst
+*.map
+*.o
+*.obj
+*.iobj
+*.dmp
+*.hex
+*.bin
+
+# ----------------------------
+# Tools / scripts / dependencies
+# ----------------------------
+*.pyc
+__pycache__/
+*.swig
+*.exe
+*.dll
+*.so
+*.lib
+
+# ----------------------------
+# Documentation
+# ----------------------------
+# If you want to version documentation, remove this
+*.pdf
+*.docx
+*.xlsx
+*.odt
+*.ods
+
+# ----------------------------
+# Others
+# ----------------------------
+*.log
+*.bak
+*.tmp
