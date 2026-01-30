@@ -14,14 +14,11 @@
 # STM32CubeIDE / Eclipse
 # ----------------------------
 *.launch
-*.project
-*.cproject
+#*.project
+#*.cproject
 .settings/
 .metadata/
-*.mxproject
-*.ioc
-*.ioc_backup
-*.ioc_history/
+#*.mxproject
 Debug/
 Release/
 *.elf
@@ -30,6 +27,7 @@ Release/
 *.hex
 *.lst
 *.d
+*.ld
 
 # ----------------------------
 # IDE / Editor temporary files
@@ -102,3 +100,7 @@ __pycache__/
 *.log
 *.bak
 *.tmp
+
+*.vgdbsettings
+*.vcxproj.user
+*.ffs_db
