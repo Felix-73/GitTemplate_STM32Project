@@ -26,11 +26,11 @@ The project follows strict versioning, commit, and release rules to ensure:
 
 ## Repository Structure
 
-Core/           Application core (main, interrupts)
-Drivers/        STM32 HAL / LL drivers
-Middlewares/    RTOS, stacks, external libraries
-Board/          Board-specific configuration
-Application/    Application-level code
+- Core/           Application core (main, interrupts)
+- Drivers/        STM32 HAL / LL drivers
+- Middlewares/    RTOS, stacks, external libraries
+- Board/          Board-specific configuration
+- Application/    Application-level code
 
 
 ## Versioning

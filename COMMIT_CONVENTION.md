@@ -82,3 +82,12 @@ Keep README.md and changelog separate from versioning. Don’t update the versio
 ### Command example
 
 ``` git tag -a v1.2.0 -m "Release firmware version 1.2.0"```
+
+
+# Forbidden Actions
+
+- Write the version in the commit
+- Write a date in the commit
+- Using vague or meaningless commit messages
+- Reusing or moving existing version tags.
+- Deleting or altering commits that are already pushed to a remote shared branch

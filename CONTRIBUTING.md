@@ -5,7 +5,6 @@
 
 - This project uses STM32Cube-generated code
 - All contributors must follow the defined workflow
-- Code reviews are mandatory
 
 ## Commit Rules
 
@@ -18,12 +17,11 @@
 
 ## Workflow
 
-1. Create a branch from 'develop'
+1. Create a branch 'develop'
 2. Implement the change
-3. Rebase on latest 'develop'
-4. Open a merge request
-5. Address review comments
-6. Merge after approval
+3. Open a merge request
+4. Address review comments
+5. Merge after approval on the master branch
 
 ## Forbidden Actions
 
